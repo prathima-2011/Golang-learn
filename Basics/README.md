@@ -33,7 +33,8 @@ Short Declaration vs Normal Declaration
 -> Short declaration is the most widely used declaration type and it's suggested to use when the initial values are known and whereas normal declaration when the initial value is unknown!!
 -> Short declaration can be used to keep the code concise..
 -> Normal declaration can be used when the other developers want to know that some variables are related..! like for instance:
-    ```var (
+    ```
+    var (
         height int
         age int
     
