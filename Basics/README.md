@@ -6,7 +6,7 @@ Variables:
 
 variable declaration syntax:
     var <name_of_the_variable> <type_of_the_variable>
-    ex: var age int
+    ```ex: var age int```
 
 Path Separator:
 ----------------------------------------------------------------
@@ -14,10 +14,11 @@ Path Separator:
 
 import "path"
 path.Split(string path) -> returns dir (string), file_name (string)
-ex: path.Split(Desktop/GO-LEARNING/Basics/README.md)
+```ex: path.Split(Desktop/GO-LEARNING/Basics/README.md)```
+```
 output: dir = Desktop/GO-LEARNING/Basics/
         file_name = README.md
-
+```
 
 Short Declaration
 ----------------------------------------------------------------
@@ -32,9 +33,9 @@ Short Declaration vs Normal Declaration
 -> Short declaration is the most widely used declaration type and it's suggested to use when the initial values are known and whereas normal declaration when the initial value is unknown!!
 -> Short declaration can be used to keep the code concise..
 -> Normal declaration can be used when the other developers want to know that some variables are related..! like for instance:
-    var (
+    ```var (
         height int
         age int
     
         name string
-    )
+    )```
